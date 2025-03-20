@@ -1,4 +1,4 @@
-function Alerta() {
+function alerta() {
     return (
         <div class="alert alert-primary" role="alert">
   A simple primary alert—check it out!
@@ -6,4 +6,4 @@ function Alerta() {
     );
   }
 
-export default Alerta;
+export default alerta;

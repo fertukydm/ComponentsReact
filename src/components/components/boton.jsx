@@ -2,7 +2,7 @@
 //propiedades en un compoenente
 
 
-function Boton({nombre, color}) {
+function boton({nombre, color}) {
     return (
         <>
         {color === "rojo" ? (
@@ -24,4 +24,4 @@ function Boton({nombre, color}) {
     );
   }
 
-export default Boton;
+export default boton;

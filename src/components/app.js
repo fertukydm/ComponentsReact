@@ -1,22 +1,22 @@
 import logo from './logo.svg';
 import './app.css';
 //importar los componentes
-import Boton from './components/Boton';
-import Alerta from './components/Alerta';
+import Boton from './components/boton';
+import Alerta from './components/alerta';
 
 function App() {
   return (
     <>
     <h1>Hola mundo, mi primer app de react</h1>
-    <Boton 
+    <boton 
     nombre={"Boton 1"}
     color={"morado"}
     />
-    <Alerta />
-    <Boton 
+    <alerta />
+    <boton 
     nombre={"Boton 2"}/>
 
-    <Alerta />
+    <alerta />
 
     <div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -61,4 +61,4 @@ function App() {
   );
 }
 
-export default pp;
+export default App;
